@@ -1,0 +1,25 @@
+# Local virtualenv (macOS-built; must never land in a Linux image)
+.venv/
+venv/
+env/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Notebooks (exploration only, not needed at runtime)
+*.ipynb
+
+# VCS / editor / OS cruft
+.git/
+.gitignore
+.vscode/
+.idea/
+.DS_Store
+
+# Docker's own files
+Dockerfile
+.dockerignore
